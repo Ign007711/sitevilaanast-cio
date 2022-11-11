@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;600&family=Montserrat:wght@500&display=swap');
+body{
+    background-color: rgb(206, 255, 206);
+    margin: 0px;
+    font-family: 'Kanit', sans-serif;
+}
+h1{
+    margin: 0px;
+    font-size: 70px;
+    font-weight: bold;
+    color: rgb(45, 175, 45);
+    text-align: left;
+    margin: 0 auto;
+    background-color: white;
+    margin-bottom: 0px;
+    height: 80px;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 10px;
+}
+h2{
+    color: rgb(40, 207, 40);
+    font-size: 40px;    
+    margin-bottom: 14px;
+    margin-top: 35px;
+}
+header{
+    margin-bottom: 50px;
+}
+nav{
+    background-color: rgb(45, 175, 45);
+}
+nav > table{
+    position: relative;
+    left: 400px;
+    width: 500px;
+}
+.paginas{
+    width: 320px;
+    text-align: center;
+}
+.paginas > a{
+    color: white;
+    text-decoration: none;
+}
+.paginas > a:hover{
+    color: rgb(33, 197, 33);
+    background-color: white;
+    border-radius: 10px;
+    text-decoration: underline;
+    transition: 1s;
+}
+.sumário{
+    border: solid 2px black;
+    width: 240px;
+    padding: 5px;
+    line-height: 3px;
+    margin: 0 auto;
+}
+.site{
+    background-color: white;
+    width: 960px;
+    margin: 0 auto;
+    border-radius: 30px;
+}
+p{
+    margin: 3px;
+    font-size: 20px;
+    text-indent: 50px;
+}
+main{
+    width: 860px;
+    margin: 0 auto;
+}
+#História > p{
+    margin-bottom: 10px;
+}
+#coronel{
+    float: right;
+    height: 250px;
+    width: 169px;
+    text-align: center;
+    font-size: 12px
+}
+#coronel > img{
+    height: 220px;
+    width: 146px;
+}
+a{
+    color: rgb(0, 148, 32)
+}
+.Referências{
+    width: 860px;
+    margin: 0 auto;
+}
+#imghist1{
+    height: 212px;
+    width: 285px;
+    float: left;
+    text-align: center;
+    font-size: 12px
+}
+#imghist1 > img{
+    height: 192px;
+    width: 263px;
+}
+#imghist2{
+    height: 212px;
+    width: 285px;
+    float: right;
+    text-align: center;
+    font-size: 12px;
+}
+#imghist2 > img{
+    height: 192px;
+    width: 263px;
+}
+#thist{
+    margin-top: 68px;
+}
+td{
+    margin-left: 30px;
+    text-align: center;
+}
+#Localização{
+    margin: 0 auto;
+}
+#mapa{
+    text-align: center;
+    margin: 0 auto;
+}
+#frame{
+    margin: 0 auto;
+    width: 600px;
+    height: 450px;
+    border: 10px solid rgb(0, 143, 31);
+}
+#Lazer{
+    width: 860px;
+    margin: 0 auto;
+}
+#imglaz1{
+    height: 212px;
+    width: 285px;
+    float: right;
+    text-align: center;
+    font-size: 12px
+}
+#imglaz1 > img{
+    height: 192px;
+    width: 263px;
+}
+#imglaz2{
+    height: 212px;
+    width: 285px;
+    float: left;
+    text-align: center;
+    font-size: 12px
+}
+#imglaz2 > img{
+    height: 192px;
+    width: 263px;
+}
+.titulotabela{
+    font-weight: bold;
+    border: solid rgb(0, 143, 31);
+    font-size: 16px;
+    color: rgb(35, 156, 35);
+}
+#Demografia > table{
+    float: right;
+}
+.numeração{
+    font-size: 13px;   
+}
+#imgimb1{
+    height: 212px;
+    width: 285px;
+    float: right;
+    text-align: center;
+    font-size: 12px
+}
+#imgimb2{
+    height: 212px;
+    width: 285px;
+    float: left;
+    text-align: center;
+    font-size: 12px
+}
+#imgimb3{
+    height: 212px;
+    width: 285px;
+    float: right;
+    text-align: center;
+    font-size: 12px
+}
+#timb{
+    margin-top: 68px;
+}
+#fvlanas{
+    width: 660px;
+    height: 440px;
+    margin: 0 auto;
+    border: solid 10px rgb(0, 143, 31);
+    border-radius: 30px;
+}
+#imgvlanas{
+    width: 660px;
+    height: 440px;
+    border-radius: 20px;
+}
+#mapadr{
+    margin-left: 100px
+}
+#imgdr{
+    width: 660px;
+    height: 417px;
+    margin-left: 100px;
+}
+#imgdr1{
+    height: 212px;
+    width: 285px;
+    float: right;
+    text-align: center;
+    font-size: 12px
+}
+#imgdr1 > img{
+    width: 275px;
+    height: 183px;
+}
+#imgdr2{
+    height: 212px;
+    width: 285px;
+    float: left;
+    text-align: center;
+    font-size: 12px
+}
+#imgdr2 > img{
+    width: 275px;
+    height: 183px;
+}
+#imgdr3{
+    height: 212px;
+    width: 285px;
+    float: right;
+    text-align: center;
+    font-size: 12px
+}
+#imgdr3 > img{
+    width: 275px;
+    height: 183px;
+}
+#tdr{
+    margin-top: 120px;
+}
+#imgdr221{
+    height: 212px;
+    width: 285px;
+    float: right;
+    text-align: center;
+    font-size: 12px
+}
+#imgdr221 > img{
+    width: 275px;
+    height: 183px;
+}
+#imgdr222{
+    height: 212px;
+    width: 285px;
+    float: left;
+    text-align: center;
+    font-size: 12px
+}
+#imgdr222 > img{
+    width: 275px;
+    height: 183px;
+}
+#imgdr223{
+    height: 212px;
+    width: 285px;
+    float: right;
+    text-align: center;
+    font-size: 12px
+}
+#imgdr223 > img{
+    width: 275px;
+    height: 183px;
+}
+table{
+    border: rgb(0, 143, 31);
+    margin: 0 auto;
+}
+.Referências{
+    margin-left: 5px;
+}
+#treferências{
+    color: white;
+}
+.Referências > p > a{
+    color: white;
+    text-align: left;
+}
+#linkexterno{
+    position: relative;
+    left: 600px;
+    bottom: 330px;
+}
+#linkexterno > p{
+    display: inline-block;
+    width: 61px;
+    margin-right: 20px;
+}
+#linkexternodr{
+    position: relative;
+    left: 600px;
+    bottom: 230px;
+}
+#linkexternodr > p{
+    display: inline-block;
+    width: 61px;
+    margin-right: 20px;
+}
+.icone{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+
+}
+.formulário{
+    background-color: white;
+    color: rgb(0, 143, 31);
+    width: 720px;
+    
+    border-radius: 30px;
+    margin: 0 auto;
+    position: relative;
+    bottom: 120px;
+}
+.tforms{
+    background-color: rgb(40, 207, 40);
+    border-radius: 30px 30px 0px 0px;
+    bottom: 70.1px;
+    text-align: center;
+    width: 100%
+}
+.perguntas{
+    margin: 0 auto;
+    text-align: center;
+}
+.formulário > form{
+    margin: 0 auto;
+    text-align: center;
+}
+.formulário > .tforms > h2{
+    color: rgb(255, 255, 255);
+    margin-bottom: 0px;
+    margin-left: 15px;
+}
+.formulário > .tforms > h3{
+    margin-top: 0px;
+    margin-left: 15px;
+    color: white;
+}
+footer{
+    text-align: left;
+    background-color: rgb(0, 143, 31);
+    margin-top: 30px;
+    font-weight: lighter;
+    position: static;
+    bottom: 0px;
+    width: 100%;
+    color: white;
+}
